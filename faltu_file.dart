@@ -1,11 +1,7 @@
 import 'dart:io';
-
 void main (){
 
-
-
 print(" please enter student marks ");
-
 print('Enter  marks of MATh ');
  
 int math = int.parse( stdin.readLineSync()!);
@@ -54,10 +50,4 @@ else if ( percentage >= 60 && percentage<70){
 else {
 print("bacha fail ho gaya ");  
 }
-
-
-
-
-
-
 }
